@@ -71,7 +71,6 @@ void radix_sort(int *array, int digits)
     int temp_array[digits];
     initialize_array(count, 10);
     initialize_array(temp_array, digits);
-    // int max = 0;
 
     for(int i = 0; i < digits; i++)
     {
